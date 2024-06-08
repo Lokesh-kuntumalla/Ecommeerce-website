@@ -1,0 +1,48 @@
+.Offers {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  margin: auto;
+  padding: 0 50px;
+  margin-bottom: 90px;
+  background: linear-gradient(180deg, hsl(0, 33%, 96%), hsl(0, 47%, 84%));
+}
+.Offers-left {
+  flex: 1;
+  display: in;
+  flex-direction: column;
+  justify-content: start;
+}
+.Offers-left h1 {
+  color: #191515;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 40px 0;
+}
+.Offers-left p {
+  color: #191515;
+  font-size: 18px;
+  padding-top: 40px;
+}
+.Offers-left button {
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  background: rgb(243, 80, 80);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.Offers button:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.Offers-right {
+  flex: 1;
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+}
